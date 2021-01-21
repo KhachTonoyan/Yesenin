@@ -1,0 +1,210 @@
+.home-container {
+  position: relative;
+  .first-background {
+    position: absolute;
+    top: 93px;
+    width: 715px;
+    height: 981px;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+  .second-background {
+    position: absolute;
+    right: 0px;
+    top: -40px;
+    width: 774px;
+    height: 1237px;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+  .third-background {
+    position: absolute;
+    width: 364px;
+    height: 391px;
+    top: 1599px;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+  .fourth-background {
+    position: absolute;
+    right: 0;
+    width: 672px;
+    height: 797px;
+    top: 2342px;
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+  .header-container {
+    padding: 0 70px;
+    height: 118px;
+    margin-top: 40px;
+    display: flex;
+    .menu {
+      width: 64px;
+      height: 64px;
+      background-size: 100% 100%;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+    .logo {
+      margin-left: 436px;
+      width: 332px;
+      height: 100%;
+      background-size: 100% 100%;
+      cursor: pointer;
+    }
+    .nav {
+      height: 70px;
+      display: flex;
+      justify-content: space-between;
+      width: 351px;
+      margin: 30px 0 0 133px;
+      > p {
+        font-size: 24px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    }
+  }
+  .to-order-card {
+    margin: 146px 0 0 786px;
+    height: 388px;
+    width: 300px;
+    :nth-child(1) {
+      font-size: 49px;
+    }
+    :nth-child(2) {
+      font-size: 59px;
+      font-weight: 400;
+    }
+    :nth-child(3) {
+      font-size: 58px;
+      font-weight: 500;
+    }
+    :nth-child(4) {
+      font-size: 73px;
+      font-weight: 700;
+    }
+    > button {
+      background-color: #032e3c;
+      height: 82px;
+      width: 296px;
+      margin: 40px 2px 0 2px;
+      color: #fff;
+      font-size: 28px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+  .choose-a-section {
+    height: 163px;
+    width: 583px;
+    margin: 206px 0 0 719px;
+    display: flex;
+    justify-content: space-between;
+    .vector-left {
+      width: 163px;
+      height: 100%;
+      background-size: 100% 100%;
+    }
+    :last-child {
+      font-size: 48px;
+      font-weight: 700;
+      margin-top: 38px;
+    }
+  }
+  .categories {
+    height: 327px;
+    padding: 0 67px;
+    margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .about-us {
+    padding: 0 243px;
+    margin-top: 270px;
+    display: flex;
+    font-weight: 700;
+    text-align: center;
+    > div {
+      width: 374px;
+    }
+    :nth-child(1) {
+      > div {
+        width: 182px;
+        height: 130px;
+        background-size: 100% 100%;
+      }
+      > p {
+        width: 208px;
+        margin-top: 24px;
+        font-size: 20px;
+      }
+    }
+    .middle {
+      border-left: 1px solid #032e3c;
+      border-right: 1px solid #032e3c;
+    }
+    :nth-child(2) {
+      > div {
+        width: 145px;
+        height: 130px;
+        background-size: 100% 100%;
+        margin: 0 auto;
+      }
+      > p {
+        width: 164px;
+        font-size: 19px;
+        margin: 30px auto 0 auto;
+      }
+    }
+    :nth-child(3) {
+      > div {
+        width: 131px;
+        height: 130px;
+        background-size: 100% 100%;
+        margin-left: 134px;
+      }
+      > p {
+        width: 188px;
+        font-size: 19px;
+        margin: 30px 0 0 105px;
+      }
+    }
+  }
+  .day-cake {
+    height: 163px;
+    width: 518.5px;
+    margin: 116px 0 0 447px;
+    display: flex;
+    justify-content: space-between;
+    .vector-right {
+      width: 163px;
+      height: 100%;
+      background-size: 100% 100%;
+    }
+    :first-child {
+      font-size: 64px;
+      font-weight: 700;
+      margin-top: 54px;
+    }
+  }
+  .day-cake-img {
+    margin: -163px auto 0 auto;
+    width: 633px;
+    height: 637px;
+    background-size: 100% 100%;
+  }
+  .order-button {
+    display: block;
+    background-color: #032e3c;
+    height: 80px;
+    width: 350px;
+    margin: 20px auto;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}

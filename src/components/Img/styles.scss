@@ -1,0 +1,14 @@
+.img-container {
+  cursor: pointer;
+  .small {
+    width: 300px;
+    height: 300px;
+    background-size: auto auto;
+    background-position: center;
+  }
+  p {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
